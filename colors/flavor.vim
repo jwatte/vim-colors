@@ -48,7 +48,7 @@ if &background=='light'
   hi Comment		guifg=#606060	guibg=NONE	gui=NONE
   hi Number		guifg=#d70087	guibg=NONE	gui=NONE
   hi Constant		guifg=#803000	guibg=NONE	gui=NONE
-  hi StatusLine		guifg=fg	guibg=#a6caf0	gui=NONE
+  hi StatusLine		guifg=fg	guibg=#005f5f	gui=NONE
   hi LineNr		guifg=#686868	guibg=NONE	gui=NONE
   hi Question		guifg=fg	guibg=#d0d090	gui=NONE
   hi PreProc		guifg=#009030	guibg=NONE	gui=NONE
@@ -77,7 +77,7 @@ if &background=='light'
   hi SignColumn		guifg=fg	guibg=#90e090	gui=NONE
 
   hi IncSearch		guifg=#f0f0f0	guibg=#806060	gui=NONE
-  hi StatusLineNC	guifg=fg	guibg=#c0c0c0	gui=NONE
+  hi StatusLineNC	guifg=fg	guibg=#005f5f	gui=NONE
   hi VertSplit		guifg=fg	guibg=#c0c0c0	gui=NONE
   hi Underlined		guifg=#6a5acd	guibg=NONE	gui=underline
   hi Ignore		guifg=bg	guibg=NONE
@@ -159,7 +159,7 @@ if &background=='light'
     hi Comment		ctermfg=8	ctermbg=NONE	cterm=NONE
     hi Number		ctermfg=162	ctermbg=NONE	cterm=NONE
     hi Constant		ctermfg=88	ctermbg=NONE	cterm=NONE
-    hi StatusLine	ctermfg=fg	ctermbg=153	cterm=NONE
+    hi StatusLine	ctermfg=fg	ctermbg=73	cterm=NONE
     hi LineNr		ctermfg=242	ctermbg=NONE	cterm=NONE
     hi Question		ctermfg=fg	ctermbg=186	cterm=NONE
     hi PreProc		ctermfg=29	ctermbg=NONE	cterm=NONE
@@ -190,7 +190,7 @@ if &background=='light'
     hi SignColumn	ctermfg=fg	ctermbg=114	cterm=NONE
 
     hi IncSearch	ctermfg=255	ctermbg=95	cterm=NONE
-    hi StatusLineNC	ctermfg=fg	ctermbg=250	cterm=NONE
+    hi StatusLineNC	ctermfg=fg	ctermbg=73	cterm=NONE
     hi VertSplit	ctermfg=fg	ctermbg=250	cterm=NONE
     hi Underlined	ctermfg=62	ctermbg=NONE	cterm=underline
     hi Ignore		ctermfg=bg	ctermbg=NONE
@@ -267,7 +267,7 @@ elseif &background=='dark'
   hi Cursor		guifg=#000000	guibg=#00f000	gui=NONE
   " NOTE THIS IS IN THE COOL SECTION
   " hi CursorIM		guifg=#000000	guibg=#f000f0	gui=NONE
-  hi StatusLine		guifg=#000000	guibg=#a6caf0	gui=NONE
+  hi StatusLine		guifg=#000000	guibg=#005f5f	gui=NONE
   hi LineNr		guifg=#b0b0b0	guibg=NONE	gui=NONE
   hi Question		guifg=#000000	guibg=#d0d090	gui=NONE
   hi ModeMsg		guifg=fg	guibg=#000080	gui=NONE
@@ -288,7 +288,7 @@ elseif &background=='dark'
   hi DiffText		guifg=#000000	guibg=#c0e080	gui=NONE
   hi SignColumn		guifg=#e0e0e0	guibg=#008000	gui=NONE
   hi IncSearch		guifg=#000000	guibg=#d0d000	gui=NONE
-  hi StatusLineNC	guifg=#000000	guibg=#c0c0c0	gui=NONE
+  hi StatusLineNC	guifg=#000000	guibg=#005f5f	gui=NONE
   hi VertSplit		guifg=#000000	guibg=#c0c0c0	gui=NONE
   hi Underlined		guifg=#80a0ff	guibg=NONE	gui=underline 
   hi Ignore		guifg=#000000	guibg=NONE
@@ -356,7 +356,7 @@ elseif &background=='dark'
     hi Cursor		ctermfg=16	ctermbg=46	cterm=NONE
     " NOTE THIS IS IN THE COOL SECTION
     " hi CursorIM	ctermfg=16	ctermbg=201	cterm=NONE
-    hi StatusLine	ctermfg=16	ctermbg=153	cterm=NONE
+    hi StatusLine	ctermfg=16	ctermbg=23	cterm=NONE
     hi LineNr		ctermfg=249	ctermbg=NONE	cterm=NONE
     hi Question		ctermfg=16	ctermbg=186	cterm=NONE
     hi ModeMsg		ctermfg=fg	ctermbg=18	cterm=NONE
@@ -379,7 +379,7 @@ elseif &background=='dark'
     hi DiffText		ctermfg=16	ctermbg=150	cterm=NONE
     hi SignColumn	ctermfg=254	ctermbg=28	cterm=NONE
     hi IncSearch	ctermfg=16	ctermbg=252	cterm=NONE
-    hi StatusLineNC	ctermfg=16	ctermbg=250	cterm=NONE
+    hi StatusLineNC	ctermfg=16	ctermbg=23	cterm=NONE
     hi VertSplit	ctermfg=16	ctermbg=250	cterm=NONE
     hi Underlined	ctermfg=111	ctermbg=NONE	cterm=underline 
     hi Ignore		ctermfg=16	ctermbg=NONE
