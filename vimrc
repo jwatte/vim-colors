@@ -1,0 +1,10 @@
+set expandtab
+set ts=4
+set sw=4
+set autoindent
+set incsearch
+set hidden
+syntax on
+set background=light
+set t_Co=256
+colorscheme molokai
