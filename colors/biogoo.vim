@@ -46,7 +46,7 @@ hi IncSearch		guifg=#ffffff guibg=#0000ff gui=bold
 hi LineNr			guifg=#303030 guibg=#e5e5e5 gui=underline
 hi Keyword			guifg=#00007f
 hi Macro			guifg=#295498
-hi MatchParen		guifg=#ffffff guibg=#7f3030
+hi MatchParen		guifg=#ffffff guibg=#00a000
 hi ModeMsg			guifg=#00007f
 hi MoreMsg			guifg=#00007f
 hi NonText			guifg=#007f00
@@ -93,9 +93,9 @@ hi WildMenu			guifg=#540054
 " vimspell
 hi SpellErrors		guibg=#f0f0f0 guifg=#7f0000 gui=undercurl guisp=#7f0000
 
-"if !exists("g:biogoo_normal_cursor")
-	" use a green-on-black cursor -- jwatte
-	hi Cursor		guifg=#101010 guibg=#007f00 ctermfg=black ctermbg=green
-"endif
+if !exists("g:biogoo_normal_cursor")
+	" use a gray-on-blue cursor
+	hi Cursor		guifg=#ffffff guibg=#00007f
+endif
 
 " vim:noet:ts=4 tw=80 cc=+1
