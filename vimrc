@@ -9,7 +9,16 @@ set background=light
 set t_Co=256
 colorscheme biogoo
 set ic
-:filetype plugin indent on
+set gdefault
+filetype plugin indent on
+set showmode
+set showcmd
+set wildmenu
+set wildmode=list:longest
+set ttyfast
+set backspace=indent,eol,start
+set laststatus=2
+
 
 au InsertLeave * hi Cursor guibg=red
 au InsertEnter * hi Cursor guibg=green
@@ -25,5 +34,5 @@ if &term =~ "xterm\\|rxvt"
     " use \003]12;gray\007 for gnome-terminal
 endif
 
-:map <F6> :cn<CR>
-:map <S-F6> :cp<CR>
+map <F6> :cn<CR>
+map <S-F6> :cp<CR>
