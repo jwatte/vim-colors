@@ -34,5 +34,5 @@ if &term =~ "xterm\\|rxvt"
     " use \003]12;gray\007 for gnome-terminal
 endif
 
-map <F6> :cn<CR>
-map <S-F6> :cp<CR>
+map <F8> :cn<CR>
+map <S-F8> :cp<CR>
