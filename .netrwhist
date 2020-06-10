@@ -1,4 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/cit/imvu/website-project/website/rest/service/snailmail'
-let g:netrw_dirhist_2='/home/cit/imvu/website-project/website/unicorns_sections/pure_mobile'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/jwatte/observe/code/go/src/observe/meta/metagql'
+let g:netrw_dirhist_2='/tmp'
+let g:netrw_dirhist_3='/home/jwatte/observe/code/go/src/observe'
+let g:netrw_dirhist_4='/home/jwatte/observe/code/go/src/observe/meta/metagql'
+let g:netrw_dirhist_5='/'
+let g:netrw_dirhist_6='/home/jwatte/observe/code/go/src/observe/meta/metaparser'
+let g:netrw_dirhist_7='/home/jwatte/observe/code/go/src/observe/meta'
+let g:netrw_dirhist_8='/home/jwatte/observe/ops/kubernetes/apps/transformer'
+let g:netrw_dirhist_9='/home/jwatte/observe/code/go/src/observe/cmd/modstoupdate'
